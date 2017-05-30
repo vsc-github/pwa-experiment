@@ -26,6 +26,43 @@
           overflow: auto;
           position: relative;
       }
+      .fapp {
+        height: 100%;
+        overflow: auto;
+        max-width: 520px;
+        margin: 0 auto;
+        background-color: #262cac;
+      }
+      .ffeed{
+        height: 100%;
+        overflow: auto;
+        margin-top:6rem;
+        background-color: #fff;
+      }
+      .fitem{
+        height: 6rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        display: flex;
+      }
+      .fimage{
+        height: 5.5rem;
+        width: 5.5rem;
+        background-color: #d0d0d0;
+      }
+      .fcont{
+        width: 80%;
+        display: Flex;
+        flex-direction: column;
+      }
+      .fdesc1,.fdesc2{
+        height: .8rem;
+        margin: 0 0 1rem 1rem;
+        background-color: #dadada;
+      }
+      .fdesc1{width:65%}
+      .fdesc2{width:85%}
+
     </style>
     <title>React App</title>
   </head>
@@ -33,7 +70,33 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class="fapp">
+        <div class="ffeed">
+          <div class="fitem">
+            <div class="fimage"></div>
+            <div class="fcont">
+              <div class="fdesc1"></div>
+              <div class="fdesc2"></div>
+            </div>
+          </div>
+          <div class="fitem">
+            <div class="fimage"></div>
+            <div class="fcont">
+              <div class="fdesc1"></div>
+              <div class="fdesc2"></div>
+            </div>
+          </div>
+          <div class="fitem">
+            <div class="fimage"></div>
+            <div class="fcont">
+              <div class="fdesc1"></div>
+              <div class="fdesc2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
