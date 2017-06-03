@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "supertest": "^3.0.0"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
